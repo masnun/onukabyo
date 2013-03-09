@@ -3,7 +3,7 @@
 class UserTableSeeder extends Seeder {
 
     /**
-     * Run the database seeds.
+     * Run the user seeds.
      *
      * @return void
      */

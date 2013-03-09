@@ -14,10 +14,7 @@
 //Route::any('/', array('as' => 'home', 'uses' => 'HomeController@showWelcome'));
 
 Route::any('/', function () {
-    $credentials = array(
-        "username" => "masnun",
-        "password" => 1234
-    );
+    $onukabyo = Onukabyo::find(1);
 
-    var_dump(Auth::attempt($credentials));
+    var_dump($onukabyo->owner);
 });
