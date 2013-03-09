@@ -1,13 +1,7 @@
-## Laravel 4.x
+## অনুকাব্য 
 
-### A Framework For Web Artisans
+বাংলা ভাষায় অনুকাব্য প্রকাশ করার প্লাটফর্ম । লারাভেল ফোর এর উপর ভিত্তি করে তৈরি হচ্ছে এই এ্যাপ্লিকেশনটি । 
 
-[Official Documentation](http://four.laravel.com) (Under Active Development)
+## Onukabyo
 
-### Contributing To Laravel
-
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software license under the [MIT license](http://opensource.org/licenses/MIT)
+A platform to publish small poems/rhymes. Based on Laravel 4. 
