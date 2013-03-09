@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration {
 
 			// created_at and updated_at
 			$table->timestamps();
-		})
+		});
 	}
 
 	/**

@@ -13,6 +13,11 @@
 
 //Route::any('/', array('as' => 'home', 'uses' => 'HomeController@showWelcome'));
 
-Route::any('/', function() {
-    var_dump(Input::all());
+Route::any('/', function () {
+    $credentials = array(
+        "username" => "masnun",
+        "password" => 1234
+    );
+
+    var_dump(Auth::attempt($credentials));
 });
